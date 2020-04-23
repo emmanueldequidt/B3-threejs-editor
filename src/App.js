@@ -8,11 +8,7 @@ import Textures from "./options/textures";
 import Shapes from "./options/shapes";
 import Renderer from "./renderer";
 import Gadget from "./options/gadgets";
-<<<<<<< HEAD
-import {updateColor} from "./store";
-=======
 import {Store, updateColor} from "./store";
->>>>>>> upstream/master
 
 const App = props => {
 
@@ -20,12 +16,6 @@ const App = props => {
 
     return (
         <div className="App">
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> upstream/master
             <Switch>
                 <Route exact path={routes.home.options.colors.all} component={Colors}/>
                 <Route exact path={routes.home.options.shapes.all} component={Shapes}/>
