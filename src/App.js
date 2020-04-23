@@ -8,10 +8,13 @@ import Textures from "./options/textures";
 import Shapes from "./options/shapes";
 import Renderer from "./renderer";
 import Gadget from "./options/gadgets";
+import {updateColor} from "./store";
 
 const App = props => {
     return (
         <div className="App">
+
+
 
             <Switch>
                 <Route exact path={routes.home.options.colors.all} component={Colors}/>
